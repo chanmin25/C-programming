@@ -21,19 +21,19 @@
     <ClCompile Include="Assignment02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Assignment05.c">
+    <ClCompile Include="Assignment08.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Assignment07.c">
+    <ClCompile Include="Assignment15.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Assignment09.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Assignment10.c">
+    <ClCompile Include="Assignment16.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="testproject01.c">
+    <ClCompile Include="Assignment17.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
