@@ -35,8 +35,7 @@ void rjatk(void)
 	{
 		printf("직사각형 모양의 선택 영역 내의 점이 아닙니다.");
 	}
-		
-	return 0;
+	
 }
 
 int main(void)
