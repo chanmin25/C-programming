@@ -27,12 +27,39 @@
     <ClCompile Include="Am03_arr.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Assignment08.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Am08_coffee.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment13.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Am13_square.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment18.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Am18_song.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Am01_login.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Am03_arr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Am08_coffee.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Am13_square.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Am18_song.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
