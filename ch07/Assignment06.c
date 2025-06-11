@@ -8,7 +8,6 @@
 *¹öÀü : v1.0
 */
 
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 void Am06(void)

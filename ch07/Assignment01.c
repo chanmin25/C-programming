@@ -8,53 +8,42 @@
 
 *버전 : v1.0
 */
-
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void printArray(int arr[], int size);
-void fillCD(int arr[], int size, int start, int diff);
-int Assignment01(void);
-
-int main(void)
+int Assignment01() 
 {
-    Assignment01();
-    return 0;
-}
+    int arr[10];         // 크기가 10인 정수형 배열
+    int first, diff;     // 첫 번째 항과 공차
+    int i;
 
-int Assignment01(void)
-{
-    int result[10] = { 0 };
-    int start = 0;
-    int diff = 0;
+    // 사용자 입력
+    printf("첫 번째 항을 입력하세요: ");
+    scanf("%d", &first);
 
-    printf("초기값 등차 입력하세요: ");
-    scanf("%d %d", &start, &diff);
+    printf("공차를 입력하세요: ");
+    scanf("%d", &diff);
 
-    fillCD(result, 10, start, diff);
+    // 등차수열로 배열 채우기
+    for (i = 0; i < 10; i++) 
+    {
+        arr[i] = first + i * diff;
+    }
 
-    printf("등차수열: ");
-    printArray(result, 10);
-
-    return 0;
-}
-
-void printArray(int arr[], int size)
-{
-    int i = 0;
-
-    for (i = 0; i < size; i++)
+    // 결과 출력
+    printf("등차수열 배열: ");
+    for (i = 0; i < 10; i++) 
     {
         printf("%d ", arr[i]);
     }
     printf("\n");
+
+    return 0;
 }
 
-void fillCD(int arr[], int size, int start, int diff)
+
+int main()
 {
-    arr[0] = start;
-    for (int i = 1; i < size; i++)
-    {
-        arr[i] = arr[i - 1] + diff;
-    }
+    Assignment01();
+    return 0;
 }
