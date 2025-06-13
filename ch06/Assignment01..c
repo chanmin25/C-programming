@@ -16,8 +16,7 @@ int get_perimeter(int rk, int tp)
 {
 	int enffp;
 
-	enffp = rk * 2;
-	enffp += tp * 2;
+	enffp = rk * 2 + tp * 2;
 	return enffp;
 }
 

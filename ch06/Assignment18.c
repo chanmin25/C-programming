@@ -25,7 +25,7 @@ void divisors(int num)
 			printf("%d ", i);
 		}
 	}
-	printf(">= ÃÑ %d°³\n", cnt);
+	printf("=> ÃÑ %d°³\n", cnt);
 }
 
 void body(void)
