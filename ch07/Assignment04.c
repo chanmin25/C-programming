@@ -18,9 +18,9 @@ void Assign04(void)
     int max, min, max_idx, min_idx;
     int i;
 
-    max = arr[0];
-    min = arr[0];
-    printf("배열: ");
+    max = arr[0];   max_idx = 0;
+    min = arr[0];   min_idx = 0;
+    printf("배열:");
     for (i = 0; i < 10; i++)
     {
         printf(" %d", arr[i]);
