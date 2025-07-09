@@ -10,24 +10,21 @@
 */
 
 #define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
 
-void length(void)
+void Am01()
 {
 	int num;
 
-	printf("한 변의 길이?");
+	printf("한 변의 길이: ");
 	scanf("%d", &num);
 
-	printf("정사각형의 넒이:%d \n", num * num);
-	printf("정사각형의 둘레:%d", num * 4);
-
-	return 0;
+	printf("정사각형의 넓이: %d\n", num * num);
+	printf("정사각형의 둘레: %d", num * 4);
 }
 
-int main(void)
+int main()
 {
-	length();
+	Am01();
 	return 0;
 }

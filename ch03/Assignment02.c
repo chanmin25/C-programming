@@ -12,25 +12,23 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void width(void)
+void Am02()
 {
-	int num = 0;
-	int sero = 0;
+	int x;
+	int y;
 
-	printf("가로의 길이?");
-	scanf("%d", &num);
+	printf("가로의 길이? ");
+	scanf("%d", &x);
 
-	printf("세로의 길이?");
-	scanf("%d", &sero);
+	printf("세로의 길이? ");
+	scanf("%d", &y);
 
-	printf("직사각형의 넓이:%d \n", num * sero);
-	printf("직사각형의 둘레:%d", num * 2 + sero * 2);
-
-	return 0;
+	printf("직사각형의 넓이: %d\n", x * y);
+	printf("직사각형의 둘레: %d", x * 2 + y * 2);
 }
 
-int main(void)
+int main()
 {
-	width();
+	Am02();
 	return 0;
 }

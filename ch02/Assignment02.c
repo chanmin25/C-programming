@@ -9,29 +9,25 @@
 *버전 : v1.0
 */
 
-
 #define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
 
-void school(void)
+void Am02()
 {
 	int num;
-	float x;
+	double score;
 
-	printf("번호?");
+	printf("번호? ");
 	scanf("%d", &num);
 
-	printf("학점?");
-	scanf("%f", &x);
+	printf("학점? ");
+	scanf("%lf", &score);
 
-	printf("%d번 학생의 학점은 %f입니다.\n", num, x);
-
-	return 0;
+	printf("%d번 학생의 학점은 %.1lf입니다.", num, score);
 }
 
-int main(void)
+int main()
 {
-	school();
+	Am02();
 	return 0;
 }

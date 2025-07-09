@@ -11,24 +11,21 @@
 
 
 #define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
 
-void coffee(void)
+void Am07()
 {
-	int num;
 	char size;
+	int num;
 
-	printf("커피 사이즈(S,T,G)와 주문 수량?");
+	printf("커피 사이즈 (S, T, G)와 주문 수량? ");
 	scanf("%c %d", &size, &num);
 
-	printf("%c 사이즈 %d잔을 주문합니다.\n", size, num);
-
-	return 0;
+	printf("%c 사이즈 %d잔을 주문합니다. ", size, num);
 }
 
-int main(void)
+int main()
 {
-	coffee();
+	Am07();
 	return 0;
 }

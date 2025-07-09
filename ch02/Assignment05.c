@@ -16,12 +16,12 @@
 
 void weight(void)
 {
-	float x;
+	double x;
 
-	printf("몸무게?");
-	scanf("%f", &x);
+	printf("몸무게? ");
+	scanf("%lf", &x);
 
-	printf("입력한 몸무게는 %.2f KG입니다.\n", x);
+	printf("입력한 몸무게는 %.2lf KG입니다.\n", x);
 
 	return 0;
 }
