@@ -9,10 +9,11 @@
 
 *버전 : v1.0
 */
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int choose_menu(void)
+int choose_menu()
 {
 	int num;
 	while (1)
@@ -21,13 +22,14 @@ int choose_menu(void)
 		scanf("%d", &num);
 
 		if (num >= 0 && num <= 3)
+		{
 			return num;
-
-		printf("잘못된 선택입니다. 다시 입력하세요. \n");
+		}
+		printf("잘못된 선택입니다. 다시 입력하세요.\n");
 	}
 }
 
-void file(void)
+void Am06()
 {
 	int choose;
 
@@ -36,19 +38,24 @@ void file(void)
 		choose = choose_menu();
 
 		if (choose == 1)
-			printf("파일 열기를 수행합니다. \n");
+		{
+			printf("파일 열기를 수행합니다.\n");
+		}
 		else if (choose == 2)
-			printf("파일 저장을 수행합니다. \n");
+		{
+			printf("파일 저장을 수행합니다.\n");
+		}
 		else if (choose == 3)
-			printf("인쇄를 수행합니다. \n");
-	
+		{
+			printf("인쇄를 수행합니다.\n");
+		}
 	} while (choose != 0);
 
-	printf("프로그램을 종료합니다. \n");
+	printf("프로그램을 종료합니다.");
 }
 
-int main(void)
+int main()
 {
-	file();
+	Am06();
 	return 0;
 }

@@ -8,9 +8,11 @@
 
 *¹öÀü : v1.0
 */
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 
 void divisors(int num)
 {
@@ -39,7 +41,6 @@ void body(void)
 		int num = rand() % 1000;
 		divisors(num);
 	}
-
 }
 
 int main(void)
